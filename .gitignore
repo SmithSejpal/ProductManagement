@@ -1,6 +1,6 @@
 # Build and runtime files
-bin/
-obj/
+[Bb]in/
+[Oo]bj/
 *.exe
 *.dll
 *.pdb
@@ -12,7 +12,7 @@ obj/
 *.jar
 
 # VS and Rider files
-.vscode/
+.vs/
 .idea/
 *.suo
 *.user
@@ -27,8 +27,8 @@ packages/
 # Logs and debug
 *.log
 logs/
-Debug/
-Release/
+[Dd]ebug/
+[Rr]elease/
 
 # Environment files
 .env
