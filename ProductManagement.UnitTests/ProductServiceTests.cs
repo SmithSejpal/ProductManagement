@@ -1,15 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
-using Moq;
-using Xunit;
+﻿using Moq;
 using ProductManagement.Core.Entities;
 using ProductManagement.Core.Exceptions;
 using ProductManagement.Core.Interfaces;
 using ProductManagement.Core.Interfaces.Repositories;
-using ProductManagement.Core.Interfaces.Services;
 using ProductManagement.Core.Services;
-using ProductManagement.Core.ServicesResult;
 
 public class ProductServiceTests
 {
