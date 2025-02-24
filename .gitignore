@@ -1,0 +1,45 @@
+# Build and runtime files
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.app
+*.out
+*.so
+*.dylib
+*.class
+*.jar
+
+# VS and Rider files
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.cache
+*.csproj.user
+
+# Dependency directories
+node_modules/
+packages/
+
+# Logs and debug
+*.log
+logs/
+Debug/
+Release/
+
+# Environment files
+.env
+.env.local
+appsettings.json
+appsettings.Development.json
+secrets.json
+
+# System files
+.DS_Store
+Thumbs.db
+
+# NuGet
+*.nupkg
