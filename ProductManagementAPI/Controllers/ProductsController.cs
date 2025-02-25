@@ -60,6 +60,7 @@ namespace ProductManagement.API.Controllers
         /// Deletes an existing product ID.
         /// </summary>
         [HttpDelete("{id}")]
+        //Example of hiding an endpoint on Swagger.
         [ApiExplorerSettings(IgnoreApi = true)]
         public async Task<ProductTransactionActionResult> Delete(string id)
             => _mapper.Map<ProductTransactionActionResult>(await _productService.DeleteProductAsync(id));
